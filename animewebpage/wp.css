@@ -1,0 +1,118 @@
+nav{
+    display:flex;
+    background-color: rgb(77, 6, 6);
+    justify-content: end;
+    flex-direction: row;
+   max-width:2400px;
+   column-gap: 20px;
+}
+nav a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+
+/* top portion styling */
+
+.topportion{
+   /* move img up but how?*/
+   margin-top: 20px;
+    background-color: black;
+    width: 1243px;
+    height:250px;
+    color:beige;
+}
+.topportion img{
+    display: flex;
+    float:right;
+    margin-right: 30px;
+    align-content: flex-end;
+}
+.topportion h1{
+
+    margin-left: 100px;
+
+}
+.topportion p{
+    
+margin-left: 70px;
+}
+.topportion button{
+    margin-top: 90px;
+    margin-left: 150px;
+}
+.text{
+    display: inline-block;
+    margin-top: 60px;
+}
+
+
+/* picture part styling*/
+
+.pictures{
+    background-color: blue;
+   width: 1243px;
+   height:;
+
+}
+.pictures p{
+    display: flex;
+  justify-content: center;
+ 
+}
+
+.pictures img{
+    margin-left: 70px;
+ display:inline-block;
+  padding-top: 20px;
+  justify-content:center;
+ /* need to position img in right way*/
+  
+
+}
+.pictures img:first-child{
+    padding-left: 150px;
+}
+
+.inspirationalquote{
+    background-color:red;
+    font-size: xx-large;
+    padding: 40px;
+   margin-top: 20px;
+   width: 1143px;
+}
+
+.inspirationalquote p:nth-child(2){
+    padding-left: 70px;
+    display: flex;
+    justify-content:flex-end;
+   
+}
+
+.signup{
+    
+    display: flex;
+    background-color:orange;
+   width: 1243px;
+    margin-top: 20px;
+    justify-content:center;
+    
+}
+ .signup h3{
+     font-size: larger;
+     font-weight: 900;
+     padding: 90px;
+
+
+ }
+
+ .signup p{
+     padding-top: 120px;
+     padding-right: 200px;
+ }
+
+ footer{
+background-color:white;
+display: flex;
+justify-content:center;
+ } 
